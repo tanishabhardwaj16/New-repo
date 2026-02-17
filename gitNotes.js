@@ -10,9 +10,10 @@
 // .git --> hidden folder that contains all the information about the Git repository, including commit history, branches, and configuration.
 
 // git add -> Stages changes to be committed. You can specify individual files or use '.' to stage all changes.
-// git commit -m "commit message" -> take snapshot of your project and save the history of changes. The -m flag allows you to provide a commit message describing the changes made in that commit.
+// git commit -m "commit message" -> take snapshot of your project and save the history of changes in .git repository. The -m flag allows you to provide a commit message describing the changes made in that commit.
 // git status -> Shows the current status of the repository, including staged and unstaged changes.
 // git add. --> add all files and folder to staging area
-//Untracked files -> Files that are not being tracked by Git. They have not been added to the staging area or committed yet.
-//staged files -> Files that have been added to the staging area and are ready to be committed. They have been marked for inclusion in the next commit.
-//files to be committed -> Files that have been staged and are ready to be included in the next commit. These files will be part of the commit history once the commit is made.
+// Untracked files -> Files that are not being tracked by Git. They have not been added to the staging area or committed yet.
+// staged files -> Files that have been added to the staging area and are ready to be committed. They have been marked for inclusion in the next commit.
+// files to be committed -> Files that have been staged and are ready to be included in the next commit. These files will be part of the commit history once the commit is made.
+// git log -> Shows the commit history of the repository, including commit messages, authors, and timestamps.
