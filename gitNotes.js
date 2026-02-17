@@ -17,3 +17,6 @@
 // staged files -> Files that have been added to the staging area and are ready to be committed. They have been marked for inclusion in the next commit.
 // files to be committed -> Files that have been staged and are ready to be included in the next commit. These files will be part of the commit history once the commit is made.
 // git log -> Shows the commit history of the repository, including commit messages, authors, and timestamps.
+// git branch -> Lists all branches in the repository. The current branch is indicated with an asterisk (*).
+// git config --global user.name "Your Name" -> Sets the global username for Git commits.
+// git config --global user.email "youremail@example.com" -> Sets the global email address for Git commits.
